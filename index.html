@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/coollogo_com-53881885.jpg" rel="icon">
+  <link href="assets/img/coollogo_com-53881885.jpg" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link
@@ -558,8 +558,42 @@
     </section> -->
     <!-- End Testimonials Section -->
 
+    <!-- Start Contact Form -->
+<form role="form" id="contactForm" class="contact-form" data-toggle="validator" class="shake">
+  <div class="form-group">
+    <div class="controls">
+      <input type="text" id="name" class="form-control" placeholder="Name" required data-error="Please enter your name">
+      <div class="help-block with-errors"></div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="controls">
+      <input type="email" class="email form-control" id="email" placeholder="Email" required data-error="Please enter your email">
+      <div class="help-block with-errors"></div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="controls">
+      <input type="text" id="msg_subject" class="form-control" placeholder="Subject" required data-error="Please enter your message subject">
+      <div class="help-block with-errors"></div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="controls">
+      <textarea id="message" rows="7" placeholder="Message" class="form-control" required data-error="Write your message"></textarea>
+      <div class="help-block with-errors"></div>
+    </div>  
+  </div>
+
+  <button type="submit" id="submit" class="btn btn-effect"><i class="fa fa-check"></i> Send Message</button>
+  <div id="msgSubmit" class="h3 text-center hidden"></div> 
+  <div class="clearfix"></div>   
+
+</form>     
+<!-- End Contact Form -->
+
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+    <!-- <section id="contact" class="contact">
       <div class="container">
 
         <div class="section-title">
@@ -632,7 +666,8 @@
         </div>
 
       </div>
-    </section><!-- End Contact Section -->
+    </section> -->
+    <!-- End Contact Section -->
 
   </main><!-- End #main -->
 
